@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="urlmsg">Type a URL, any URL.</string>
+    <string name="app_name">DownLoad</string>
+    <string name="halfGigURL">http://download.thinkbroadband.com/512MB.zip</string>
+    <string name="tuxImgURL">http://clipartist.net/social/clipartist.net/B/base_tux_g_v_linux.svg
+      </string>
+    <string name="title_activity_http_example">Download Manager Example</string>
+    <string name="explain">Type in a website name, with or without http:// I will retrieve and show you the page  in plain text, usually this would be in a WebView widget, not TextView.</string>
+
+</resources>

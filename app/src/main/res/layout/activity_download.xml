@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:padding="@dimen/padding_medium"
+            android:text="@string/urlmsg"
+            tools:context=".DownloadManagerExample" />
+
+    <EditText
+        android:id="@+id/myURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="@string/tuxImgURL"
+        android:inputType="textUri" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doDownload"
+        android:text="Download It" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showDownload"
+        android:text="Show downloaded" />
+    <ImageView android:layout_height="wrap_content"
+          android:id="@+id/iv"
+        android:src="@drawable/ic_action_search"
+        android:layout_width="match_parent"></ImageView>
+
+</LinearLayout>
